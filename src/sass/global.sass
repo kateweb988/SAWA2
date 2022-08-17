@@ -1,0 +1,111 @@
+body
+   color: $black
+   font-weight: 400
+   font-size: 15px
+   line-height: 120%
+   background: url(img/bg.png) no-repeat center center / cover
+   font-family: 'Inter', sans-serif
+a
+   text-decoration: none
+   box-sizing: border-box
+   &:hover
+      color: $pink
+.container
+   padding: 0 15px
+   max-width: 1250px
+   margin: 0 auto
+   @media ( max-width: 1199px )
+      max-width: 960px
+   @media (max-width: 991px)
+      max-width: 720px
+   @media (max-width: 767px)
+      max-width: 540px
+.btn
+   display: flex
+   align-items: center
+   justify-content: center
+   transition: all 0.5s ease
+   width: 200px
+   height: 55px
+   border-radius: 50px
+   border: 2px solid transparent
+   font-weight: 600
+   font-size: 14px
+.btn1
+   background: transparent
+   border: 2px solid $blue
+   color: $blue
+   &:hover
+      border: 2px solid transparent
+      color: $white
+      background: $blue
+.btn2
+   background: $blue
+   border: 2px solid transparent
+   color: $white
+   &:hover
+      background: transparent
+      border: 2px solid $blue
+      color: $blue
+.btn3
+   background: $pink
+   border: 2px solid transparent
+   color: $white
+   &:hover
+      background: transparent
+      border: 2px solid $pink
+      color: $pink
+.d-flex
+   display: flex
+.body-wrap
+   overflow: hidden
+   position: relative
+   display: flex
+   flex-direction: column
+   min-height: 100vh
+footer
+   margin-top: auto
+h1
+   font-family: 'Red Hat Display', sans-serif
+   font-weight: 900
+   font-size: 66px
+   line-height: 100%
+   max-width: 870px
+   margin-bottom: 54px
+   span 
+      color: #1B65FF
+      font-size: 96px
+h2
+   margin: 0
+   font-weight: 900
+   font-size: 48px
+   line-height: 110%
+   font-family: 'Red Hat Display', sans-serif
+ul 
+   margin: 0
+   padding: 0
+   list-style-type: none
+p
+   margin: 0
+a
+   transition: all 0.5s ease
+   box-sizing: border-box
+li
+   a
+      transition: all 0.5s ease
+button
+   cursor: pointer
+   box-sizing: border-box
+textarea
+   &:focus
+      outline: none
+input
+   box-sizing: border-box
+   &:focus-visible
+      outline: initial
+footer 
+   li 
+      a 
+         font-family: 'Sora', sans-serif
+path
+   transition: 0.5s

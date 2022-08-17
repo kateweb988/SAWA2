@@ -1,0 +1,72 @@
+.invite 
+    padding-bottom: 57px
+    &__info 
+        text-align: center
+    &__link 
+        margin: 70px auto 10px
+    &__pic 
+        margin-right: 30px
+        @media screen and (max-width: 992px) 
+            margin: 0 auto 25px !important
+        @media screen and (max-width: 576px) 
+            width: 100%
+    &__content 
+        max-width: 468px
+    h2 
+        text-align: center
+    &__item 
+        margin-bottom: -25px
+        align-items: center
+        justify-content: center
+        @media screen and (max-width: 992px) 
+            flex-direction: column
+            text-align: center
+            margin-bottom: 0
+        &:nth-child(2n)
+            .invite__pic
+                order: 2
+                margin-right: 0
+                margin-left: 30px
+            @media screen and (max-width: 992px) 
+                flex-direction: column-reverse
+    &__box 
+        position: relative
+        margin-top: 40px
+    &__fig 
+        position: absolute
+        top: 258px
+        z-index: -1
+        left: 406px
+        @media screen and (max-width: 1199px) 
+            left: 358px
+        @media screen and (max-width: 992px) 
+            display: none
+    &-pink 
+        color: $pink
+        font-weight: 800
+    &__name 
+        font-weight: 900
+        font-size: 36px
+        line-height: 100%
+        color: #3A4457
+        margin-bottom: 30px
+    &__btn 
+        @media screen and (max-width: 992px) 
+            margin: 0 auto
+    &__text 
+        font-weight: 400
+        font-size: 18px
+        line-height: 140%
+        margin-bottom: 30px
+    &-title 
+        span 
+            font-size: 66px
+            @media screen and (max-width: 576px) 
+                font-size: 38px
+        @media screen and (max-width: 576px) 
+            font-size: 38px
+.header__content_invite
+    max-width: 679px
+.invite-title
+    @media screen and (max-width: 992px) 
+        max-width: 100%
