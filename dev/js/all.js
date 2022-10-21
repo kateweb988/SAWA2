@@ -26,6 +26,32 @@ null);d(".arcticmodal-container").length||(b.wrap.data("arcticmodalOverflow")&&b
 d.fn.arcticmodal=function(a){if(h[a])return h[a].apply(this,Array.prototype.slice.call(arguments,1));if("object"===typeof a||!a)return f.init.apply(this,arguments);d.error("jquery.arcticmodal: Method "+a+" does not exist")}})(jQuery);
 document.addEventListener("DOMContentLoaded", () => {
 });
+// Новые попапы
+$('.n1').click(function (e) {
+  e.preventDefault();
+  $('#new1').arcticmodal({
+  });
+});
+$('.n2').click(function (e) {
+  e.preventDefault();
+  $('#new2').arcticmodal({
+  });
+});
+$('.n3').click(function (e) {
+  e.preventDefault();
+  $('#new3').arcticmodal({
+  });
+});
+$('.n4').click(function (e) {
+  e.preventDefault();
+  $('#new4').arcticmodal({
+  });
+});
+$('.n5').click(function (e) {
+  e.preventDefault();
+  $('#new5').arcticmodal({
+  });
+});
 function chpok(id) {
   elem = document.getElementById(id); //находим блок div по его id, который передали в функцию
   state = elem.style.display; //смотрим, включен ли сейчас элемент
