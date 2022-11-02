@@ -106,3 +106,38 @@
         object-fit: cover
 .earn-items__block:hover .new-label 
     color: white
+// NEW
+.earn2
+    &-fund 
+        padding-top: 0
+    &__title
+        margin-bottom: 40px
+    &__btn 
+        width: 100px
+        font-size: 12px
+        height: 35px
+        margin: 0 auto
+    &__text 
+        font-weight: 500
+        font-size: 14px
+        line-height: 140%
+        color: #3A4457
+    &__info 
+        font-weight: 500
+        text-align: left
+        font-size: 12px
+        line-height: 140%
+        color: #81868F
+        @media screen and (max-width: 1199px) 
+            text-align: right
+    &__content 
+        max-width: 150px
+        margin: 0 auto
+        @media screen and (max-width: 1199px) 
+            margin: 0
+td[data-label="Staked (TVL)"] 
+    text-align: left
+    @media screen and (max-width: 1199px) 
+        text-align: right
+.adaptive-table td[data-label]:before
+    color: #3A4457 !important
