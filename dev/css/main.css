@@ -8140,6 +8140,10 @@ td[data-label="Staked (TVL)"] {
   color: #3A4457 !important;
 }
 
+.profile__row {
+  box-shadow: -2px 4px 10px rgba(160, 184, 198, 0.15);
+}
+
 .pop-new__link {
   font-weight: 400;
   font-size: 16px;
