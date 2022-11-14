@@ -7937,6 +7937,71 @@ select {
   }
 }
 
+.sawa {
+  position: relative;
+  padding-bottom: 260px;
+}
+@media screen and (max-width: 576px) {
+  .sawa {
+    padding-bottom: 200px;
+  }
+}
+@media screen and (max-width: 345px) {
+  .sawa {
+    padding-bottom: 260px;
+  }
+}
+.sawa-courses {
+  position: absolute;
+  padding: 12px 0;
+  background: linear-gradient(81.83deg, #DCE3F8 6.39%, #D4DDFD 93.83%);
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.sawa-courses__box {
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 767px) {
+  .sawa-courses__box {
+    justify-content: center;
+  }
+}
+.sawa-courses__icon {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.sawa-courses__item {
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .sawa-courses__item {
+    margin: 10px;
+  }
+}
+.sawa-courses__name {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #929292;
+  margin-bottom: 2px;
+}
+.sawa-courses__text {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #3A4457;
+  font-weight: 900;
+}
+
 .checkboxes-and-radios {
   width: 61px;
   margin-left: auto;
